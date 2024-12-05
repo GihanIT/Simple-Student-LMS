@@ -16,7 +16,7 @@
         $servername = "localhost";
         $username = "root";
         $password = "";
-        $dbname = "nova_database";
+        $dbname = "lmsdb"; // database name
 
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
