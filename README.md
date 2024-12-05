@@ -38,7 +38,10 @@ Download the entire project folder from this repository.
 
 ### **Admin Login**  
 1. Open the project in your browser (e.g., `http://localhost/project-folder-name`).  
-2. Use the admin credentials provided in the database to log in.  
+2. Use the admin credentials to log in:  
+   - **Username**: `admin`  
+   - **Password**: `password123`  
+   - *(You can change the admin username and password in the `login/process.php` file.)*  
 3. Navigate to the admin dashboard to manage student records.  
 
 ### **Student Login**  
@@ -52,6 +55,8 @@ Download the entire project folder from this repository.
 - Browser: Google Chrome, Mozilla Firefox, or any modern browser.  
 
 ---
+### Contacts
+**Email** : gihanhareendra@gmail.com
 
 ## Folder Structure  
 ```plaintext
@@ -64,6 +69,3 @@ Download the entire project folder from this repository.
 │   └── ...              # Student functionality scripts
 ├── index.php            # Main landing page
 ├── README.md            # Project documentation
-
-###contact
--**Email** : gihanhareendra@gmail.com
