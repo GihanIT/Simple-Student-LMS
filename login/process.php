@@ -3,7 +3,7 @@ session_start();
 
 // Predefined credentials (in a real application, use a database)
 $valid_username = "admin";
-$valid_password = "password";
+$valid_password = "password123";
 
 // Check if form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

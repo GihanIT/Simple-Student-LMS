@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="login-container">
-        <img src="img/logo.jpg" alt="Logo" class="logo">
+        <img src="img/logologin.jpg" alt="Logo" class="logo">
         <form action="process.php" method="post" class="login-form">
             <h2>Login</h2>
             <?php
