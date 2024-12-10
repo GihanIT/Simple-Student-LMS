@@ -99,10 +99,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="form-group">
                 <label>Course</label>
                 <select name="course" required>
-                    <option value="Computer Science" <?php echo ($student['course'] == 'Computer Science') ? 'selected' : ''; ?>>Computer Science</option>
-                    <option value="Engineering" <?php echo ($student['course'] == 'Engineering') ? 'selected' : ''; ?>>Engineering</option>
-                    <option value="Business Administration" <?php echo ($student['course'] == 'Business Administration') ? 'selected' : ''; ?>>Business Administration</option>
+                    <option value="ICT Basics" <?php echo ($student['course'] == 'ICT Basics') ? 'selected' : ''; ?>>ICT Basics</option>
+                    <option value="Graphic Design" <?php echo ($student['course'] == 'Graphic Design') ? 'selected' : ''; ?>>Graphic Design</option>
                     <option value="Data Science" <?php echo ($student['course'] == 'Data Science') ? 'selected' : ''; ?>>Data Science</option>
+                    <option value="Computer Science" <?php echo ($student['course'] == 'Computer Science') ? 'selected' : ''; ?>>Computer Science</option>
+                    <option value="Programming" <?php echo ($student['course'] == 'Programming') ? 'selected' : ''; ?>>Programming</option>
+                    <option value="Networking" <?php echo ($student['course'] == 'Networking') ? 'selected' : ''; ?>>Networking</option>
+                    <option value="Web Development" <?php echo ($student['course'] == 'Web Development') ? 'selected' : ''; ?>>Web Development</option>
+                    <option value="Cyber Security" <?php echo ($student['course'] == 'Cyber Security') ? 'selected' : ''; ?>>Cyber Security</option>
                 </select>
             </div>
 
